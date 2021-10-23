@@ -1,0 +1,46 @@
+## What on earth can we say hello to ? 🤔
+
+This is only a stupid hack for hacktoberfest (ITExperience). Concept inspired by [Manoonchai/Daimai](https://github.com/Manoonchai).
+
+---
+
+## Get started
+
+Navigate to [localhost:5000](http://localhost:5000).
+
+```bash
+npm run dev
+```
+
+## Building and running in production mode
+
+To create an optimised version of the app:
+
+```bash
+npm run build
+```
+
+## List of stuff to say hello to
+
+Yon can directly add something to this list. ```text only```
+
+- Jabont
+- Contributors
+- Hackers
+- Crocodile
+- Ex-girlfriend
+- Daddy ;)
+- Cupid
+- PR
+- Professor
+- Dumbledore
+- World !
+- Goodbye
+- Don't touch me
+- Alien
+- Boys
+- Down to eat?
+- Dracula
+- Can I commit?
+- Dummy !
+- Lucifer
