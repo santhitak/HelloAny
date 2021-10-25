@@ -30,7 +30,7 @@ Yon can directly add something to this list. ```text only```
 - Hackers
 - My Team!
 - Crocodile
-- Daddy ;)
+- Daddy
 - Cupid
 - PR
 - Professor
@@ -56,3 +56,22 @@ Yon can directly add something to this list. ```text only```
 - Eve
 - Detective
 - Lucifer
+- I'm leaving
+- Gojou
+- BorntoDev
+- Peace please?
+- Papa
+- Narze
+- Friends
+- Kids
+- Sandbox
+- You
+- New
+- Doggo
+- Smelly cat
+- Phoeby
+- Rachel
+- Joey
+- Ross
+- Monica
+- Chandler
