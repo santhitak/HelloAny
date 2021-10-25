@@ -1,7 +1,7 @@
 ## What on earth can we say hello to ? 🤔
 ```check this out``` https://hello-any.netlify.app/
 
-Concept inspired by [Manoonchai/Daimai](https://github.com/Manoonchai).
+Concept inspired by [narze](https://github.com/narze/DaiMai).
 
 ---
 
