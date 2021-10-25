@@ -1,5 +1,5 @@
 ## What on earth can we say hello to ? 🤔
-```demo``` https://hello-any.netlify.app/
+```check this out``` https://hello-any.netlify.app/
 
 This is only a stupid hack for hacktoberfest (ITExperience). Concept inspired by [Manoonchai/Daimai](https://github.com/Manoonchai).
 
