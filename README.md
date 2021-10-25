@@ -76,3 +76,6 @@ Yon can fork and add something to this list. ```text only```
 - Monica
 - Chandler
 - TIGER
+- My Love
+- Mars
+- Thailand
