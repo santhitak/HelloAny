@@ -23,7 +23,7 @@ npm run build
 
 ## List of stuff to say hello to
 
-Yon can directly add something to this list. ```text only```
+Yon can fork and add something to this list. ```text only```
 
 - Jabont
 - Contributors
