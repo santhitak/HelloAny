@@ -77,7 +77,7 @@
       {#if stuff_list[stuff_id] != undefined}
         <!-- svelte-ignore missing-declaration -->
         <GradientText
-			style="font-size:2rem;"
+			style="font-size:2rem; text-transform:capitalize;"
 			gradient="linear-gradient(90deg, rgb(67, 174, 255) 5%, rgb(160, 131, 237) 25%, rgb(239, 122, 200) 50%, rgb(254, 134, 159) 85%,rgb(255, 167, 69) 130%)"
 		>
 		{stuff_list[stuff_id]}
