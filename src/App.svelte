@@ -91,7 +91,7 @@
 
     <!-- svelte-ignore missing-declaration -->
     <button
-      class="btn btn-outline-dark my-4"
+      class="custom_btn mb-4"
       on:click={randomDataId}
 
       use:pannable
@@ -140,15 +140,15 @@
 <style>
   main {
     text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
   }
 
   .time {
     padding: 1rem;
 
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
   }
@@ -157,7 +157,7 @@
     justify-content: center;
     padding: 1rem;
 
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
   }
@@ -169,8 +169,7 @@
   }
 
   .wrapBox {
-    padding: 10rem 0 0 0;
-    margin: 2rem 0;
+    margin: auto;
   }
 
   .wrapBox .helloBox {
@@ -180,9 +179,6 @@
     justify-content: center;
   }
   @media (min-width: 800px) {
-    main {
-      max-width: none;
-    }
     .timeIsmobile {
       display: none;
     }
@@ -193,9 +189,6 @@
     }
   }
   @media (max-width: 800px) {
-    main {
-      max-width: 500px;
-    }
     .time {
       display: none;
     }
@@ -209,5 +202,27 @@
     .hint {
       display: none;
     }
+  }
+  .custom_btn {
+    font-size: 0.5rem;
+      padding: 6px 12px;
+      color: #333;
+      background: white;
+      border-radius: 7px;
+      box-shadow: 0 0 0 0 rgb(177, 177, 177);
+      transition: all .3s ease-in-out;
+      animation: pulse 2s infinite cubic-bezier(0.66, 0, 0, 1);
+  }
+
+  .custom_btn:hover {
+    background: black;
+    color: white;
+    box-shadow: 0 0 0 0 rgb(255, 143, 143);
+  }
+
+  @keyframes pulse {
+      to {
+          box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+      }
   }
 </style>
