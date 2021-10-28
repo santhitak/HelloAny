@@ -13,7 +13,7 @@ body {
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 a {
