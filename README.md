@@ -78,3 +78,6 @@ Yon can fork and add something to this list. ```text only```
 - TIGER
 - From the other side
 - Bozzlab
+- My Love
+- Mars
+- Thailand
