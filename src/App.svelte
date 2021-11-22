@@ -63,24 +63,22 @@
   }
 
   import { time, elapsed } from "./component/stores";
-  import GradientText from 'svelte-gradient-typography';
+  import GradientText from "svelte-gradient-typography";
 </script>
 
 <main>
   <div class="wrapBox">
     <div class="helloBox">
-	<!-- svelte-ignore missing-declaration -->
-	<GradientText style="font-size:2rem;">
-      Hello,&nbsp;
-	</GradientText>
+      <!-- svelte-ignore missing-declaration -->
+      <GradientText style="font-size:2rem;">Hello,&nbsp;</GradientText>
 
       {#if stuff_list[stuff_id] != undefined}
         <!-- svelte-ignore missing-declaration -->
         <GradientText
-			style="font-size:2rem; text-transform:capitalize;"
-			gradient="linear-gradient(90deg, rgb(67, 174, 255) 5%, rgb(160, 131, 237) 25%, rgb(239, 122, 200) 50%, rgb(254, 134, 159) 85%,rgb(255, 167, 69) 130%)"
-		>
-		{stuff_list[stuff_id]}
+          style="font-size:2rem; text-transform:capitalize;"
+          gradient="linear-gradient(90deg, rgb(67, 174, 255) 5%, rgb(160, 131, 237) 25%, rgb(239, 122, 200) 50%, rgb(254, 134, 159) 85%,rgb(255, 167, 69) 130%)"
+        >
+          {stuff_list[stuff_id]}
         </GradientText>
       {:else}
         <div class="flex justify-center items-center">
@@ -93,7 +91,6 @@
     <button
       class="custom_btn mb-4"
       on:click={randomDataId}
-
       use:pannable
       on:panstart={handlePanStart}
       on:panmove={handlePanMove}
@@ -105,10 +102,9 @@
       Random
     </button>
 
-
-      <h6 class="hint">
-        <b> try drag the button anywhere</b>
-      </h6>
+    <h6 class="hint">
+      <b> try drag the button anywhere</b>
+    </h6>
 
     <div class="timeIsmobile">
       <h6>
@@ -123,7 +119,11 @@
     <div>
       {#each links as link}
         <h5>
-          <a class="text-dark" href="https://github.com/santhitak" target="_blank">{link}</a>
+          <a
+            class="text-dark"
+            href="https://github.com/santhitak"
+            target="_blank">{link}</a
+          >
         </h5>
       {/each}
     </div>
@@ -204,25 +204,24 @@
     }
   }
   .custom_btn {
-    font-size: 0.5rem;
-      padding: 6px 12px;
-      color: #333;
-      background: white;
-      border-radius: 7px;
-      box-shadow: 0 0 0 0 rgb(177, 177, 177);
-      transition: all .3s ease-in-out;
-      animation: pulse 2s infinite cubic-bezier(0.66, 0, 0, 1);
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    color: #333;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0 0 0 0 rgb(177, 177, 177);
+    animation: pulse 2s infinite cubic-bezier(0.66, 0, 0, 1);
   }
 
   .custom_btn:hover {
     background: black;
     color: white;
-    box-shadow: 0 0 0 0 rgb(255, 143, 143);
+    box-shadow: 0 0 0 0 rgb(143, 188, 255);
   }
 
   @keyframes pulse {
-      to {
-          box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
-      }
+    to {
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
   }
 </style>
