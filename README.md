@@ -81,3 +81,4 @@ Yon can fork and add something to this list. ```text only```
 - My Love
 - Mars
 - Thailand
+- Bitcoin
