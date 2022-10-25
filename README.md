@@ -25,24 +25,12 @@ npm run build
 
 Yon can fork and add something to this list. ```text only```
 
-- Jabont
 - Contributors
-- Hackers
-- My Team!
-- Crocodile
-- Daddy
 - Cupid
-- PR
-- Professor
-- Harry
 - John Doe
-- Sleepy?
 - Mama
 - Queen
 - Lover boy
-- Kitty
-- Puppy
-- Dumbledore
 - World !
 - Goodbye
 - Don't touch me
@@ -53,20 +41,16 @@ Yon can fork and add something to this list. ```text only```
 - Can I commit?
 - Dummy !
 - Zombie
-- Eve
 - Detective
 - Lucifer
-- I'm leaving
 - Gojou
 - BorntoDev
-- Peace please?
 - Papa
 - Narze
 - Friends
 - Kids
 - Sandbox
 - You
-- New
 - Doggo
 - Smelly cat
 - Phoeby
