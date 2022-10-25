@@ -1,5 +1,5 @@
 ## What on earth can we say hello to ? 🤔
-```check this out``` [helo-any](https://hello-any.vercel.app/)
+```check this out``` [hello-any](https://hello-any.vercel.app/)
 
 Concept inspired by [narze](https://github.com/narze/DaiMai).
 
